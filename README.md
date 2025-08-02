@@ -1,92 +1,113 @@
 <div align="center">
-  <h1>👋 Hello, I'm Muhammad Bilal</h1>
-  <h3>AI Developer | Machine Learning Enthusiast | Open Source Contributor</h3>
-  <p>3rd-year BS Artificial Intelligence student at Aror University, Sukkur, passionate about building intelligent systems and contributing to real-world AI/ML solutions.</p>
+  <h1>👨‍💻 Hey, I'm Muhammad Bilal! 🚀</h1>
+  <h3>AI Developer | Machine Learning Enthusiast | Open Source Advocate</h3>
+  <p>3rd-year BS Artificial Intelligence student at Aror University, Sukkur, crafting intelligent systems to solve real-world challenges in healthcare, automation, and beyond.</p>
 
-  <img src="https://komarev.com/ghpvc/?username=bilal-0046&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" />
-  <br>
+  <img src="https://komarev.com/ghpvc/?username=bilal-0046&label=Profile%20Views&color=ff69b4&style=flat-square" alt="Profile views" />
+  <br><br>
   <a href="https://github.com/bilal-0046?tab=repositories"><img src="https://img.shields.io/github/stars/bilal-0046?label=Stars&style=social" alt="GitHub Stars" /></a>
   <a href="https://github.com/bilal-0046"><img src="https://img.shields.io/github/followers/bilal-0046?label=Follow&style=social" alt="GitHub Followers" /></a>
-  <a href="https://www.linkedin.com/in/muhammadbilal0046"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/muhammadbilal0046"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?logo=linkedin&style=flat-square" alt="LinkedIn" /></a>
+  <a href="https://fb.com/muhammad bilal"><img src="https://img.shields.io/badge/Facebook-Follow-1877F2?logo=facebook&style=flat-square" alt="Facebook" /></a>
 </div>
 
 ---
 
-## 🚀 About Me
-- 🎓 **Education**: Pursuing BS in Artificial Intelligence at Aror University, Sukkur.
-- 💻 **Focus**: Developing AI-powered solutions for real-world problems, specializing in deep learning, computer vision, and natural language processing.
-- 🌟 **Projects**: Notable work includes an **AI-Based Brain Tumor Detection System** using CNNs and OpenCV, and a portfolio website with an integrated AI chatbot.
-- 🌍 **Goal**: Contribute to innovative AI/ML applications that drive positive impact in healthcare, automation, and beyond.
-- 📫 **Contact**: Reach me at [muhammadbilal0046@gmail.com](mailto:muhammadbilal0046@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/muhammadbilal0046).
+## 🌟 About Me
+- 🎓 **Education**: BS Artificial Intelligence, Aror University, Sukkur (3rd Year)
+- 💡 **Focus**: Building AI/ML solutions with expertise in deep learning, computer vision, and NLP
+- 🛠️ **Projects**: Leading projects like **AI-Based Brain Tumor Detection** (CNNs, OpenCV) and a responsive portfolio with an AI chatbot
+- 🌍 **Mission**: Empowering innovation through AI in healthcare, automation, and open-source communities
+- 📩 **Let’s Connect**: [muhammadbilal0046@gmail.com](mailto:muhammadbilal0046@gmail.com) | [LinkedIn](https://www.linkedin.com/in/muhammadbilal0046)
 
 ---
 
-## 🛠️ Skills & Technologies
+## 🧠 Tech Stack
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,tensorflow,opencv,pytorch,scikit,flutter,dart,nodejs,nextjs,react,javascript,html,css,cpp,java,mongodb,mysql,oracle,docker,git,github,linux,aws" alt="Tech Stack" />
+  <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,opencv,scikit,flutter,dart,nodejs,nextjs,react,javascript,html,css,cpp,java,mongodb,mysql,oracle,docker,git,github,linux,aws,figma,vscode" alt="Tech Stack" />
 </p>
 
-### Core Competencies
-- **AI/ML**: TensorFlow, Keras, PyTorch, Scikit-learn, OpenCV, NumPy, Pandas, Matplotlib, Seaborn
-- **Web Development**: Next.js, React, Node.js, HTML5, CSS3, JavaScript, TailwindCSS
+### Expertise
+- **AI/ML**: TensorFlow, PyTorch, Keras, Scikit-learn, OpenCV, NumPy, Pandas, Matplotlib, Seaborn
+- **Web Development**: Next.js, React, Node.js, TailwindCSS, HTML5, CSS3, JavaScript
 - **Mobile Development**: Flutter, Dart
 - **Databases**: MongoDB, MySQL, Oracle
-- **Tools & Platforms**: Docker, Git, GitHub Actions, AWS, Linux
+- **DevOps & Tools**: Docker, Git, GitHub Actions, AWS, Linux, CI/CD
 - **Programming**: Python, C++, Java, JavaScript
-- **Certifications**: Google’s Foundations of Data Science, TensorFlow Developer Certificate
+- **Certifications**: Google Foundations of Data Science, TensorFlow Developer Certificate
 
 ---
 
-## 📂 Featured Projects
-### [AI-Based Brain Tumor Detection](https://github.com/bilal-0046/brain-tumor-detection)
-- **Description**: A deep learning system for detecting and classifying brain tumors from MRI images using CNNs, OpenCV, and a Tkinter GUI. Enhanced with EfficientNetB0, Grad-CAM for explainability, and Flask API for telemedicine.
-- **Tech Stack**: Python, TensorFlow, OpenCV, Tkinter, Flask, Docker
-- **Achievements**: Achieved 92% accuracy on brain_tumor_dataset; deployed as a scalable clinical tool.
+## 🔥 Featured Projects
+### [🧠 AI-Based Brain Tumor Detection](https://github.com/bilal-0046/brain-tumor-detection)
+- **Overview**: A deep learning system for MRI-based brain tumor detection and classification using CNNs and EfficientNetB0, with Grad-CAM for explainability and a Flask API for telemedicine.
+- **Tech**: Python, TensorFlow, OpenCV, Tkinter, Flask, Docker
+- **Impact**: Achieved 92% accuracy on brain_tumor_dataset; deployed as a scalable clinical tool.
 
-### [Portfolio Website with AI Chatbot](https://github.com/bilal-0046/portfolio)
-- **Description**: A modern portfolio website showcasing my skills and projects, featuring a responsive design and an AI-powered chatbot for answering FAQs.
-- **Tech Stack**: React, Next.js, TailwindCSS, JavaScript, Dialogflow
-- **Achievements**: Optimized for SEO, mobile responsiveness, and light/dark mode toggle.
+### [🌐 Portfolio Website with AI Chatbot](https://github.com/bilal-0046/portfolio)
+- **Overview**: A sleek, SEO-optimized portfolio showcasing my work, with a responsive design and an AI chatbot powered by Dialogflow.
+- **Tech**: React, Next.js, TailwindCSS, JavaScript, Dialogflow
+- **Impact**: Mobile-friendly, light/dark mode, and 100% Lighthouse accessibility score.
 
-### [Graph Cycle Detection](https://github.com/bilal-0046/graph-cycle-detection)
-- **Description**: A Java implementation to detect cycles in undirected graphs using DFS, optimized for performance and clarity.
-- **Tech Stack**: Java
-- **Achievements**: Successfully tested on cyclic and acyclic graphs with clear documentation.
+### [🔄 Graph Cycle Detection](https://github.com/bilal-0046/graph-cycle-detection)
+- **Overview**: A Java-based DFS algorithm to detect cycles in undirected graphs, optimized for performance and clarity.
+- **Tech**: Java
+- **Impact**: Robust testing on cyclic/acyclic graphs with detailed documentation.
 
-🔗 Explore more projects on my [GitHub Repositories](https://github.com/bilal-0046?tab=repositories)!
+🔗 **Discover More**: [My GitHub Repositories](https://github.com/bilal-0046?tab=repositories)
 
 ---
 
-## 📊 GitHub Stats
+## ⚡ Currently Working On
+- 🩺 Enhancing my brain tumor detection model with federated learning for privacy-preserving medical AI.
+- 📱 Developing a Flutter-based mobile app for real-time AI-driven diagnostics.
+- ✍️ Writing a blog series on "Demystifying Deep Learning for Beginners" to share knowledge.
+
+---
+
+## 📝 Blog & Articles
+Sharing insights on AI, ML, and software development:
+- [Building a Brain Tumor Detection System with CNNs](https://dev.to/bilal0046/brain-tumor-detection-cnn)
+- [Getting Started with Flutter for AI-Driven Apps](https://medium.com/@muhammadbilal0046/flutter-ai-apps)
+- [Why Open Source is the Future of AI](https://hashnode.com/@bilal0046/open-source-ai)
+
+🔗 Follow my writing on [Dev.to](https://dev.to/bilal0046) | [Medium](https://medium.com/@muhammadbilal0046)
+
+---
+
+## 📊 GitHub Insights
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=bilal-0046&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=bilal-0046&show_icons=true&theme=radical&layout=compact&hide_border=true" alt="Top Languages" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=bilal-0046&theme=radical&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=bilal-0046&show_icons=true&theme=gruvbox&hide_border=true&bg_color=0d1117" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=bilal-0046&show_icons=true&theme=gruvbox&layout=compact&hide_border=true&bg_color=0d1117" alt="Top Languages" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=bilal-0046&theme=gruvbox&hide_border=true&background=0d1117" alt="GitHub Streak" />
 </p>
 
 ---
 
-## 🌐 Connect With Me
+## 🌍 Let’s Connect!
 <p align="center">
-  <a href="https://www.linkedin.com/in/muhammadbilal0046"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" /></a>
-  <a href="https://fb.com/muhammad bilal"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="Facebook" height="30" width="40" /></a>
-  <a href="https://github.com/bilal-0046"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="GitHub" height="30" width="40" /></a>
+  <a href="https://www.linkedin.com/in/muhammadbilal0046"><img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white&style=for-the-badge" alt="LinkedIn" /></a>
+  <a href="https://fb.com/muhammad bilal"><img src="https://img.shields.io/badge/Facebook-1877F2?logo=facebook&logoColor=white&style=for-the-badge" alt="Facebook" /></a>
+  <a href="https://github.com/bilal-0046"><img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white&style=for-the-badge" alt="GitHub" /></a>
+  <a href="https://dev.to/bilal0046"><img src="https://img.shields.io/badge/Dev.to-0A0A0A?logo=dev.to&logoColor=white&style=for-the-badge" alt="Dev.to" /></a>
 </p>
 
 ---
 
-## 🏆 Achievements
-- 🥇 Contributed to open-source AI projects on GitHub.
+## 🏅 Achievements
+- 🥇 Contributor to open-source AI projects, including [TensorFlow Models](https://github.com/tensorflow/models).
 - 📜 Certified in Google’s Foundations of Data Science and TensorFlow Developer programs.
-- 🚀 Built a deployable AI system for brain tumor detection with clinical-grade performance.
+- 🚀 Deployed a clinical-grade AI system for brain tumor detection with 92% accuracy.
+- 🌟 Recognized as a top contributor in university hackathons (2024).
 
 ---
 
-## ⚙️ GitHub Actions Workflow
-I use GitHub Actions to automate testing, linting, and deployment for my projects. Check out my [workflow configurations](https://github.com/bilal-0046/.github/workflows) for CI/CD pipelines tailored to Python and JavaScript projects.
+## ⚙️ Automation with GitHub Actions
+I leverage GitHub Actions for seamless CI/CD pipelines, automating testing, linting, and deployment for Python, JavaScript, and Flutter projects. Explore my [workflows](https://github.com/bilal-0046/.github/workflows) for optimized development pipelines.
 
 ---
 
 <div align="center">
-  <p>💡 <i>Always learning, building, and contributing to the future of AI!</i></p>
+  <p>✨ <i>Building the future of AI, one line of code at a time!</i> ✨</p>
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" alt="Laptop" width="50" height="50" />
 </div>
