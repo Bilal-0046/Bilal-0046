@@ -1,22 +1,92 @@
-<h1 align="center">Hi 👋, I'm Muhammad Bilal</h1>
-<h3 align="center">*AI Developer | Machine Learning Enthusiast | Open Source Contributor*</h3>
+<div align="center">
+  <h1>👋 Hello, I'm Muhammad Bilal</h1>
+  <h3>AI Developer | Machine Learning Enthusiast | Open Source Contributor</h3>
+  <p>3rd-year BS Artificial Intelligence student at Aror University, Sukkur, passionate about building intelligent systems and contributing to real-world AI/ML solutions.</p>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=bilal-0046&label=Profile%20views&color=0e75b6&style=flat" alt="bilal-0046" /> </p>
+  <img src="https://komarev.com/ghpvc/?username=bilal-0046&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" />
+  <br>
+  <a href="https://github.com/bilal-0046?tab=repositories"><img src="https://img.shields.io/github/stars/bilal-0046?label=Stars&style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/bilal-0046"><img src="https://img.shields.io/github/followers/bilal-0046?label=Follow&style=social" alt="GitHub Followers" /></a>
+  <a href="https://www.linkedin.com/in/muhammadbilal0046"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin" alt="LinkedIn" /></a>
+</div>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=bilal-0046" alt="bilal-0046" /></a> </p>
+---
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://www.linkedin.com/in/muhammadbilal0046" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="muhammad bilal" height="30" width="40" /></a>
-<a href="https://fb.com/muhammad bilal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="muhammad bilal" height="30" width="40" /></a>
+## 🚀 About Me
+- 🎓 **Education**: Pursuing BS in Artificial Intelligence at Aror University, Sukkur.
+- 💻 **Focus**: Developing AI-powered solutions for real-world problems, specializing in deep learning, computer vision, and natural language processing.
+- 🌟 **Projects**: Notable work includes an **AI-Based Brain Tumor Detection System** using CNNs and OpenCV, and a portfolio website with an integrated AI chatbot.
+- 🌍 **Goal**: Contribute to innovative AI/ML applications that drive positive impact in healthcare, automation, and beyond.
+- 📫 **Contact**: Reach me at [muhammadbilal0046@gmail.com](mailto:muhammadbilal0046@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/muhammadbilal0046).
+
+---
+
+## 🛠️ Skills & Technologies
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,tensorflow,opencv,pytorch,scikit,flutter,dart,nodejs,nextjs,react,javascript,html,css,cpp,java,mongodb,mysql,oracle,docker,git,github,linux,aws" alt="Tech Stack" />
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
+### Core Competencies
+- **AI/ML**: TensorFlow, Keras, PyTorch, Scikit-learn, OpenCV, NumPy, Pandas, Matplotlib, Seaborn
+- **Web Development**: Next.js, React, Node.js, HTML5, CSS3, JavaScript, TailwindCSS
+- **Mobile Development**: Flutter, Dart
+- **Databases**: MongoDB, MySQL, Oracle
+- **Tools & Platforms**: Docker, Git, GitHub Actions, AWS, Linux
+- **Programming**: Python, C++, Java, JavaScript
+- **Certifications**: Google’s Foundations of Data Science, TensorFlow Developer Certificate
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=bilal-0046&show_icons=true&locale=en&layout=compact" alt="bilal-0046" /></p>
+---
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=bilal-0046&show_icons=true&locale=en" alt="bilal-0046" /></p>
+## 📂 Featured Projects
+### [AI-Based Brain Tumor Detection](https://github.com/bilal-0046/brain-tumor-detection)
+- **Description**: A deep learning system for detecting and classifying brain tumors from MRI images using CNNs, OpenCV, and a Tkinter GUI. Enhanced with EfficientNetB0, Grad-CAM for explainability, and Flask API for telemedicine.
+- **Tech Stack**: Python, TensorFlow, OpenCV, Tkinter, Flask, Docker
+- **Achievements**: Achieved 92% accuracy on brain_tumor_dataset; deployed as a scalable clinical tool.
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=bilal-0046&" alt="bilal-0046" /></p>
+### [Portfolio Website with AI Chatbot](https://github.com/bilal-0046/portfolio)
+- **Description**: A modern portfolio website showcasing my skills and projects, featuring a responsive design and an AI-powered chatbot for answering FAQs.
+- **Tech Stack**: React, Next.js, TailwindCSS, JavaScript, Dialogflow
+- **Achievements**: Optimized for SEO, mobile responsiveness, and light/dark mode toggle.
 
+### [Graph Cycle Detection](https://github.com/bilal-0046/graph-cycle-detection)
+- **Description**: A Java implementation to detect cycles in undirected graphs using DFS, optimized for performance and clarity.
+- **Tech Stack**: Java
+- **Achievements**: Successfully tested on cyclic and acyclic graphs with clear documentation.
+
+🔗 Explore more projects on my [GitHub Repositories](https://github.com/bilal-0046?tab=repositories)!
+
+---
+
+## 📊 GitHub Stats
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=bilal-0046&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=bilal-0046&show_icons=true&theme=radical&layout=compact&hide_border=true" alt="Top Languages" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=bilal-0046&theme=radical&hide_border=true" alt="GitHub Streak" />
+</p>
+
+---
+
+## 🌐 Connect With Me
+<p align="center">
+  <a href="https://www.linkedin.com/in/muhammadbilal0046"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" /></a>
+  <a href="https://fb.com/muhammad bilal"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="Facebook" height="30" width="40" /></a>
+  <a href="https://github.com/bilal-0046"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="GitHub" height="30" width="40" /></a>
+</p>
+
+---
+
+## 🏆 Achievements
+- 🥇 Contributed to open-source AI projects on GitHub.
+- 📜 Certified in Google’s Foundations of Data Science and TensorFlow Developer programs.
+- 🚀 Built a deployable AI system for brain tumor detection with clinical-grade performance.
+
+---
+
+## ⚙️ GitHub Actions Workflow
+I use GitHub Actions to automate testing, linting, and deployment for my projects. Check out my [workflow configurations](https://github.com/bilal-0046/.github/workflows) for CI/CD pipelines tailored to Python and JavaScript projects.
+
+---
+
+<div align="center">
+  <p>💡 <i>Always learning, building, and contributing to the future of AI!</i></p>
+</div>
