@@ -265,3 +265,7 @@
     // Initialize particle animation here (would require actual JS implementation)
   }
 </script>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script>
+  particlesJS.load('particle-canvas', 'particles.json');
+</script>
