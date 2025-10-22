@@ -855,4 +855,235 @@
 
         document.querySelectorAll('.section').forEach(section => {
             section.style.opacity = '0';
-            section.
+            section.style.transform = 'translateY(30px)';
+            observer.observe(section);
+        });
+
+        // Animate stats on scroll
+        const statCards = document.querySelectorAll('.stat-card');
+        const statsObserver = new IntersectionObserver((entries) => {
+            entries.forEach((entry, index) => {
+                if (entry.isIntersecting) {
+                    setTimeout(() => {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }, index * 100);
+                }
+            });
+        }, { threshold: 0.5 });
+
+        statCards.forEach(card => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(20px)';
+            statsObserver.observe(card);
+        });
+
+        // Project card hover effect with mouse tracking
+        document.querySelectorAll('.project-card').forEach(card => {
+            card.addEventListener('mousemove', (e) => {
+                const rect = card.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+                
+                const centerX = rect.width / 2;
+                const centerY = rect.height / 2;
+                
+                const rotateX = (y - centerY) / 20;
+                const rotateY = (centerX - x) / 20;
+                
+                card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-10px)`;
+            });
+            
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'perspective(1000px) rotateX(0) rotateY(0) translateY(0)';
+            });
+        });
+
+        // Skill items animation on hover
+        document.querySelectorAll('.skill-item').forEach(item => {
+            item.addEventListener('mouseenter', function() {
+                this.style.transition = 'all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55)';
+            });
+        });
+
+        // Achievement cards stagger animation
+        const achievementCards = document.querySelectorAll('.achievement-card');
+        const achievementObserver = new IntersectionObserver((entries) => {
+            entries.forEach((entry, index) => {
+                if (entry.isIntersecting) {
+                    setTimeout(() => {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateX(0)';
+                    }, index * 150);
+                }
+            });
+        }, { threshold: 0.3 });
+
+        achievementCards.forEach(card => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateX(-30px)';
+            achievementObserver.observe(card);
+        });
+
+        // Roadmap items animation
+        const roadmapItems = document.querySelectorAll('.roadmap-item');
+        const roadmapObserver = new IntersectionObserver((entries) => {
+            entries.forEach((entry, index) => {
+                if (entry.isIntersecting) {
+                    setTimeout(() => {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateX(0)';
+                    }, index * 100);
+                }
+            });
+        }, { threshold: 0.5 });
+
+        roadmapItems.forEach(item => {
+            item.style.opacity = '0';
+            item.style.transform = 'translateX(-30px)';
+            roadmapObserver.observe(item);
+        });
+
+        // Add smooth parallax effect to hero section
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const hero = document.querySelector('.hero');
+            if (hero) {
+                hero.style.transform = `translateY(${scrolled * 0.5}px)`;
+                hero.style.opacity = 1 - (scrolled / 600);
+            }
+        });
+
+        // Animate avatar on load
+        window.addEventListener('load', () => {
+            const avatar = document.querySelector('.avatar-circle');
+            avatar.style.animation = 'fadeInDown 1s ease, pulse 2s ease-in-out infinite 1s';
+        });
+
+        // Add ripple effect to buttons
+        document.querySelectorAll('.social-btn').forEach(button => {
+            button.addEventListener('click', function(e) {
+                const ripple = document.createElement('span');
+                const rect = this.getBoundingClientRect();
+                const size = Math.max(rect.width, rect.height);
+                const x = e.clientX - rect.left - size / 2;
+                const y = e.clientY - rect.top - size / 2;
+                
+                ripple.style.width = ripple.style.height = size + 'px';
+                ripple.style.left = x + 'px';
+                ripple.style.top = y + 'px';
+                ripple.style.position = 'absolute';
+                ripple.style.borderRadius = '50%';
+                ripple.style.background = 'rgba(88, 166, 255, 0.5)';
+                ripple.style.transform = 'scale(0)';
+                ripple.style.animation = 'ripple 0.6s ease-out';
+                ripple.style.pointerEvents = 'none';
+                
+                this.appendChild(ripple);
+                
+                setTimeout(() => ripple.remove(), 600);
+            });
+        });
+
+        // Add CSS for ripple animation dynamically
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes ripple {
+                to {
+                    transform: scale(4);
+                    opacity: 0;
+                }
+            }
+        `;
+        document.head.appendChild(style);
+
+        // Counter animation for stats
+        function animateCounter(element, target, duration = 2000) {
+            const start = 0;
+            const increment = target / (duration / 16);
+            let current = start;
+            
+            const timer = setInterval(() => {
+                current += increment;
+                if (current >= target) {
+                    element.textContent = target + (element.dataset.suffix || '');
+                    clearInterval(timer);
+                } else {
+                    element.textContent = Math.floor(current) + (element.dataset.suffix || '');
+                }
+            }, 16);
+        }
+
+        // Trigger counter animation when stats are visible
+        const statsCounterObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting && !entry.target.dataset.animated) {
+                    const number = entry.target.querySelector('.stat-number');
+                    const value = parseInt(number.textContent);
+                    if (!isNaN(value)) {
+                        number.dataset.suffix = number.textContent.replace(/\d+/g, '');
+                        animateCounter(number, value, 2000);
+                        entry.target.dataset.animated = 'true';
+                    }
+                }
+            });
+        }, { threshold: 0.5 });
+
+        statCards.forEach(card => statsCounterObserver.observe(card));
+
+        // Add glow effect on tech tags
+        document.querySelectorAll('.tech-tag, .skill-item').forEach(tag => {
+            tag.addEventListener('mouseenter', function() {
+                this.style.boxShadow = '0 0 20px rgba(88, 166, 255, 0.5)';
+            });
+            tag.addEventListener('mouseleave', function() {
+                this.style.boxShadow = 'none';
+            });
+        });
+
+        // Lazy load effect for images and heavy content
+        if ('IntersectionObserver' in window) {
+            const lazyObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('loaded');
+                        lazyObserver.unobserve(entry.target);
+                    }
+                });
+            });
+
+            document.querySelectorAll('.project-card, .skill-category').forEach(el => {
+                lazyObserver.observe(el);
+            });
+        }
+
+        // Add typing effect to subtitle (optional enhancement)
+        const subtitle = document.querySelector('.subtitle');
+        if (subtitle) {
+            const text = subtitle.textContent;
+            subtitle.textContent = '';
+            subtitle.classList.add('typing-effect');
+            let i = 0;
+            
+            function typeWriter() {
+                if (i < text.length) {
+                    subtitle.textContent += text.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, 50);
+                } else {
+                    subtitle.classList.remove('typing-effect');
+                }
+            }
+            
+            setTimeout(typeWriter, 1000);
+        }
+
+        // Performance optimization: Reduce animations on low-end devices
+        const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+        if (prefersReducedMotion.matches) {
+            document.querySelectorAll('*').forEach(el => {
+                el.style.animation = 'none';
+                el.style.transition = 'none';
+            });
+        }
+    </script>
